@@ -1,0 +1,2 @@
+10-26 18:41:35.113  5301  5315 I TestRunner: started: invalidStoredMoodDegradesToNoMood(com.echo.journal.data.EchoPersistenceTest)
+10-26 18:41:35.146  5301  5315 I TestRunner: finished: invalidStoredMoodDegradesToNoMood(com.echo.journal.data.EchoPersistenceTest)

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.echo.journal.data.EchoPersistenceTest" tests="7" failures="0" errors="0" skipped="0" time="10.802" timestamp="2026-10-26T13:12:07" hostname="localhost">
+  <properties>
+    <property name="device" value="EchoATD(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="deleteRemovesEntryAndCheckIn" classname="com.echo.journal.data.EchoPersistenceTest" time="0.093" />
+  <testcase name="entriesPersistAcrossDatabaseReopen" classname="com.echo.journal.data.EchoPersistenceTest" time="0.031" />
+  <testcase name="entriesAreOrderedNewestFirst" classname="com.echo.journal.data.EchoPersistenceTest" time="0.029" />
+  <testcase name="editPreservesCreationAndUpdatesTimestamp" classname="com.echo.journal.data.EchoPersistenceTest" time="0.028" />
+  <testcase name="invalidStoredMoodDegradesToNoMood" classname="com.echo.journal.data.EchoPersistenceTest" time="0.027" />
+  <testcase name="moodAndNavigationExposeSelectionState" classname="com.echo.journal.ui.EchoUiTest" time="2.165" />
+  <testcase name="capturePrimaryScreensWithRecordedData" classname="com.echo.journal.ui.EchoUiTest" time="7.801" />
+</testsuite>

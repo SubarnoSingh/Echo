@@ -1,0 +1,98 @@
+10-26 18:41:35.148  5301  5315 I TestRunner: started: moodAndNavigationExposeSelectionState(com.echo.journal.ui.EchoUiTest)
+10-26 18:41:35.180  5301  5315 I UiAutomation: Initialized for user 0 on display 0
+10-26 18:41:35.186   665   665 W IPCThreadState: Sending oneway calls to frozen process.
+10-26 18:41:35.186   665   665 W IPCThreadState: Sending oneway calls to frozen process.
+10-26 18:41:35.187   665   665 W IPCThreadState: Sending oneway calls to frozen process.
+10-26 18:41:35.188  5301  5321 V UiAutomation: Init UiAutomation@5d84c55[id=46, displayId=0, flags=0]
+10-26 18:41:35.232  5301  5315 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+10-26 18:41:35.242  5301  5315 D IdlingRegistry: Registering idling resources: [androidx.compose.ui.test.EspressoLink@1ee86d3]
+10-26 18:41:35.253  5301  5315 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-26 18:41:35.259   665  5118 I system_server: AssetManager2(0x7bf25f2d5318) locale list changing from [] to [en-US]
+10-26 18:41:35.260   665  5118 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10106, packageName = null, attributionTag = null, token = android.os.Binder@ffb6a3f, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-26 18:41:35.270  1260  1260 D VRI[EmptyHomeActivity]: visibilityChanged oldVisibility=true newVisibility=false
+10-26 18:41:35.276  5301  5301 I om.echo.journal: AssetManager2(0x7bf25f2b5298) locale list changing from [] to [en-US]
+10-26 18:41:35.288  5301  5301 D LifecycleMonitor: Lifecycle status change: com.echo.journal.MainActivity@9348e79 in: PRE_ON_CREATE
+10-26 18:41:35.288  5301  5301 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-26 18:41:35.294  5301  5301 D CompatChangeReporter: Compat change id reported: 377864165; UID 10106; state: ENABLED
+10-26 18:41:35.295  5301  5301 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+10-26 18:41:35.309  5301  5301 D LifecycleMonitor: Lifecycle status change: com.echo.journal.MainActivity@9348e79 in: CREATED
+10-26 18:41:35.309  5301  5301 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.echo.journal.MainActivity@9348e79
+10-26 18:41:35.310  5301  5301 D LifecycleMonitor: Lifecycle status change: com.echo.journal.MainActivity@9348e79 in: STARTED
+10-26 18:41:35.310  5301  5301 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.echo.journal.MainActivity@9348e79
+10-26 18:41:35.314  5301  5330 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+10-26 18:41:35.315  5301  5330 I EGL_emulation: Opening libGLESv2_emulation.so
+10-26 18:41:35.315  5301  5301 D LifecycleMonitor: Lifecycle status change: com.echo.journal.MainActivity@9348e79 in: RESUMED
+10-26 18:41:35.315  5301  5301 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.echo.journal.MainActivity@9348e79
+10-26 18:41:35.321  5301  5301 W HWUI    : Unknown dataspace 0
+10-26 18:41:35.325  5301  5330 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-26 18:41:35.490  5301  5301 I om.echo.journal: hiddenapi: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (runtime_flags=0, domain=platform, api=unsupported) from Landroidx/compose/ui/platform/AndroidComposeView$Companion; (domain=app) using reflection: allowed
+10-26 18:41:35.625  5301  5305 I om.echo.journal: Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+10-26 18:41:36.014  5301  5301 I Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+10-26 18:41:36.018   665   686 I ActivityTaskManager: Displayed com.echo.journal/.MainActivity for user 0: +757ms
+10-26 18:41:36.041   665   778 I ImeTracker: com.echo.journal:f3f5b88d: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+10-26 18:41:36.042  5301  5301 D InsetsController: hide(ime(), fromIme=false)
+10-26 18:41:36.043  5301  5301 I ImeTracker: com.echo.journal:f3f5b88d: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+10-26 18:41:36.047   665  1088 I ImeTracker: system_server:221bcef5: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+10-26 18:41:36.047   665   689 I ImeTracker: system_server:221bcef5: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-26 18:41:36.817  1177  1435 D SatelliteController: iisInCarrierRoamingNbIotNtn: satellite is disabled
+10-26 18:41:36.976   665  5118 I system_server: AssetManager2(0x7bf25f2d68f8) locale list changing from [] to [en-US]
+10-26 18:41:36.977   665  5118 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10107, packageName = null, attributionTag = null, token = android.os.Binder@ffb6a3f, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-26 18:41:36.983   665   689 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10107, packageName = null, attributionTag = null, token = android.os.Binder@ffb6a3f, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+10-26 18:41:36.984  5301  5301 D LifecycleMonitor: Lifecycle status change: com.echo.journal.MainActivity@9348e79 in: PAUSED
+10-26 18:41:36.984  5301  5301 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.echo.journal.MainActivity@9348e79
+10-26 18:41:36.987  5301  5301 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+10-26 18:41:36.989   665   779 I system_server: AssetManager2(0x7bf25f2cfb98) locale list changing from [] to [en-US]
+10-26 18:41:37.002   456   526 I netd    : tetherGetStats() -> {[]} <1.64ms>
+10-26 18:41:37.007   459   459 D Zygote  : Forked child process 5338
+10-26 18:41:37.007  5301  5301 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=androidx.navigationevent.OnBackInvokedInput$createOnBackAnimationCallback$1@63337c7
+10-26 18:41:37.010  5301  5301 D LifecycleMonitor: Lifecycle status change: com.echo.journal.MainActivity@9348e79 in: STOPPED
+10-26 18:41:37.010  5301  5301 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.echo.journal.MainActivity@9348e79
+10-26 18:41:37.032  5338  5338 I ho.journal.test: Late-enabling -Xcheck:jni
+10-26 18:41:37.069  5338  5338 I ho.journal.test: Using CollectorTypeCMC GC.
+10-26 18:41:37.070  5338  5338 W ho.journal.test: Unexpected CPU variant for x86: x86_64.
+10-26 18:41:37.070  5338  5338 W ho.journal.test: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+10-26 18:41:37.074   536   559 I adbd    : jdwp connection from 5338
+10-26 18:41:37.080  5338  5338 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+10-26 18:41:37.104  5338  5338 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-26 18:41:37.106  5338  5338 D nativeloader: Configuring clns-9 for other apk /system/framework/android.test.mock.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~I0UQ-sLJvDNbDgBZjCsbJg==/com.echo.journal.test-Q5Ey2iytWo6ghwvzsGuZmQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.echo.journal.test
+10-26 18:41:37.107  5338  5338 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+10-26 18:41:37.110  5338  5338 D nativeloader: Configuring clns-10 for other apk /system/framework/android.test.runner.jar. target_sdk_version=36, uses_libraries=ALL, library_path=/data/app/~~I0UQ-sLJvDNbDgBZjCsbJg==/com.echo.journal.test-Q5Ey2iytWo6ghwvzsGuZmQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.echo.journal.test
+10-26 18:41:37.146  5338  5338 D nativeloader: Configuring clns-11 for other apk /data/app/~~I0UQ-sLJvDNbDgBZjCsbJg==/com.echo.journal.test-Q5Ey2iytWo6ghwvzsGuZmQ==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~I0UQ-sLJvDNbDgBZjCsbJg==/com.echo.journal.test-Q5Ey2iytWo6ghwvzsGuZmQ==/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.echo.journal.test
+10-26 18:41:37.148  5338  5338 I ho.journal.test: AssetManager2(0x7bf25f2b5298) locale list changing from [] to [en-US]
+10-26 18:41:37.154  5338  5338 V GraphicsEnvironment: Currently set values for:
+10-26 18:41:37.154  5338  5338 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+10-26 18:41:37.154  5338  5338 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+10-26 18:41:37.154  5338  5338 V GraphicsEnvironment: com.echo.journal.test is not listed in per-application setting
+10-26 18:41:37.154  5338  5338 V GraphicsEnvironment: ANGLE allowlist from config:
+10-26 18:41:37.154  5338  5338 V GraphicsEnvironment: com.echo.journal.test is not listed in ANGLE allowlist or settings, returning default
+10-26 18:41:37.154  5338  5338 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+10-26 18:41:37.165  5338  5338 I ho.journal.test: AssetManager2(0x7bf25f2b7b38) locale list changing from [] to [en-US]
+10-26 18:41:37.170  5338  5338 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+10-26 18:41:37.181  5338  5338 D CompatChangeReporter: Compat change id reported: 377864165; UID 10107; state: ENABLED
+10-26 18:41:37.182  5338  5338 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+10-26 18:41:37.201  5338  5351 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+10-26 18:41:37.202  5338  5351 I EGL_emulation: Opening libGLESv2_emulation.so
+10-26 18:41:37.208  5338  5338 W HWUI    : Unknown dataspace 0
+10-26 18:41:37.211  5338  5351 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+10-26 18:41:37.257  5301  5301 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@4ddf85d
+10-26 18:41:37.258  5301  5301 D LifecycleMonitor: Lifecycle status change: com.echo.journal.MainActivity@9348e79 in: DESTROYED
+10-26 18:41:37.258  5301  5301 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+10-26 18:41:37.266  5301  5301 D ViewRootImpl: Skipping stats log for color mode
+10-26 18:41:37.269   665  1010 I ImeTracker: system_server:bb6b3a1: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+10-26 18:41:37.271   665   689 I ImeTracker: system_server:bb6b3a1: onCancelled at PHASE_SERVER_SHOULD_HIDE
+10-26 18:41:37.279  5301  5315 D IdlingRegistry: Unregistering idling resources: [androidx.compose.ui.test.EspressoLink@1ee86d3]
+10-26 18:41:37.287   518   720 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10107 pid=5338
+10-26 18:41:37.287   518   720 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10107 => denied (1032 us)
+10-26 18:41:37.287   518   720 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10107 pid=5338
+10-26 18:41:37.287   518   720 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10107 => denied (216 us)
+10-26 18:41:37.287   518   720 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10107 pid=5338
+10-26 18:41:37.287   518   720 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10107 => denied (70 us)
+10-26 18:41:37.297   665  2019 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10107 pid=0
+10-26 18:41:37.297   665  2019 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10107 => denied (410 us)
+10-26 18:41:37.298   665  2019 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10107 pid=0
+10-26 18:41:37.298   665  2019 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10107 => denied (267 us)
+10-26 18:41:37.298   665  2019 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10107 pid=0
+10-26 18:41:37.301  1260  1260 D ViewRootImpl: Skipping stats log for color mode
+10-26 18:41:37.302   665  2019 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10107 => denied (4166 us)
+10-26 18:41:37.309  5338  5338 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.app.Activity$$ExternalSyntheticLambda0@8f6b311
+10-26 18:41:37.316  5301  5315 I TestRunner: finished: moodAndNavigationExposeSelectionState(com.echo.journal.ui.EchoUiTest)

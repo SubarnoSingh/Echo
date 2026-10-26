@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.echo.journal.app-mergeDebugResources-39:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/home/sub/Subarno/Android/Echo/app/src/main/res/values-v27/themes.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "225"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "264"
+                    }
+                }
+            ]
+        }
+    ]
+}

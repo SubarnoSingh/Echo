@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+color echo_night
+drawable ic_echo
+string app_name
+style Theme.Echo
+style Theme.Echo.Base

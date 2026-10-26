@@ -1,0 +1,2 @@
+10-26 18:41:35.014  5301  5315 I TestRunner: started: entriesPersistAcrossDatabaseReopen(com.echo.journal.data.EchoPersistenceTest)
+10-26 18:41:35.049  5301  5315 I TestRunner: finished: entriesPersistAcrossDatabaseReopen(com.echo.journal.data.EchoPersistenceTest)

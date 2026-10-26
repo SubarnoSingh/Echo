@@ -1,0 +1,2 @@
+10-26 18:41:35.083  5301  5315 I TestRunner: started: editPreservesCreationAndUpdatesTimestamp(com.echo.journal.data.EchoPersistenceTest)
+10-26 18:41:35.112  5301  5315 I TestRunner: finished: editPreservesCreationAndUpdatesTimestamp(com.echo.journal.data.EchoPersistenceTest)

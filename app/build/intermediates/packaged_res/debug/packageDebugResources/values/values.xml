@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="echo_night">#0B0B10</color>
+    <string name="app_name">Echo</string>
+    <style name="Theme.Echo" parent="Theme.Echo.Base"/>
+    <style name="Theme.Echo.Base" parent="android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@color/echo_night</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">#A78BFA</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+</resources>

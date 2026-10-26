@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.echo.journal.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="color[echo_night(U)],drawable[ic_echo(U)],string[app_name(U)],style[Theme_Echo(U),Theme_Echo_Base(U)];3^4,4^0;;;"/>
+    </map>
+
+</incidents>

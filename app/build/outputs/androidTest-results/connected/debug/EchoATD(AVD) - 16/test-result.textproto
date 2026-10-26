@@ -1,0 +1,413 @@
+# proto-message: google.testing.platform.proto.api.core.TestSuiteResult
+# 2026-10-26T13:12:07.402047524Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 7
+  device {
+    id: "emulator-5560"
+    friendly_name: "primary"
+  }
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "EchoPersistenceTest"
+    test_package: "com.echo.journal.data"
+    test_method: "deleteRemovesEntryAndCheckIn"
+    start_time {
+      seconds: 1793020316
+      nanos: 534000000
+    }
+    end_time {
+      seconds: 1793020316
+      nanos: 653000000
+    }
+    device {
+      id: "emulator-5560"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/logcat-com.echo.journal.data.EchoPersistenceTest-deleteRemovesEntryAndCheckIn.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EchoPersistenceTest"
+    test_package: "com.echo.journal.data"
+    test_method: "entriesPersistAcrossDatabaseReopen"
+    start_time {
+      seconds: 1793020316
+      nanos: 670000000
+    }
+    end_time {
+      seconds: 1793020316
+      nanos: 696000000
+    }
+    device {
+      id: "emulator-5560"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/logcat-com.echo.journal.data.EchoPersistenceTest-entriesPersistAcrossDatabaseReopen.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EchoPersistenceTest"
+    test_package: "com.echo.journal.data"
+    test_method: "entriesAreOrderedNewestFirst"
+    start_time {
+      seconds: 1793020316
+      nanos: 700000000
+    }
+    end_time {
+      seconds: 1793020316
+      nanos: 726000000
+    }
+    device {
+      id: "emulator-5560"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/logcat-com.echo.journal.data.EchoPersistenceTest-entriesAreOrderedNewestFirst.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EchoPersistenceTest"
+    test_package: "com.echo.journal.data"
+    test_method: "editPreservesCreationAndUpdatesTimestamp"
+    start_time {
+      seconds: 1793020316
+      nanos: 730000000
+    }
+    end_time {
+      seconds: 1793020316
+      nanos: 756000000
+    }
+    device {
+      id: "emulator-5560"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/logcat-com.echo.journal.data.EchoPersistenceTest-editPreservesCreationAndUpdatesTimestamp.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EchoPersistenceTest"
+    test_package: "com.echo.journal.data"
+    test_method: "invalidStoredMoodDegradesToNoMood"
+    start_time {
+      seconds: 1793020316
+      nanos: 760000000
+    }
+    end_time {
+      seconds: 1793020316
+      nanos: 786000000
+    }
+    device {
+      id: "emulator-5560"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/logcat-com.echo.journal.data.EchoPersistenceTest-invalidStoredMoodDegradesToNoMood.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EchoUiTest"
+    test_package: "com.echo.journal.ui"
+    test_method: "moodAndNavigationExposeSelectionState"
+    start_time {
+      seconds: 1793020316
+      nanos: 788000000
+    }
+    end_time {
+      seconds: 1793020318
+      nanos: 952000000
+    }
+    device {
+      id: "emulator-5560"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/logcat-com.echo.journal.ui.EchoUiTest-moodAndNavigationExposeSelectionState.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "EchoUiTest"
+    test_package: "com.echo.journal.ui"
+    test_method: "capturePrimaryScreensWithRecordedData"
+    start_time {
+      seconds: 1793020318
+      nanos: 954000000
+    }
+    end_time {
+      seconds: 1793020326
+      nanos: 752000000
+    }
+    device {
+      id: "emulator-5560"
+      friendly_name: "primary"
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/logcat-com.echo.journal.ui.EchoUiTest-capturePrimaryScreensWithRecordedData.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/home/sub/Subarno/Android/Echo/app/build/outputs/androidTest-results/connected/debug/EchoATD(AVD) - 16/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

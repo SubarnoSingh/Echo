@@ -1,0 +1,3 @@
+10-26 18:41:34.895  5301  5315 I TestRunner: started: deleteRemovesEntryAndCheckIn(com.echo.journal.data.EchoPersistenceTest)
+10-26 18:41:34.942  5301  5317 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+10-26 18:41:35.012  5301  5315 I TestRunner: finished: deleteRemovesEntryAndCheckIn(com.echo.journal.data.EchoPersistenceTest)
